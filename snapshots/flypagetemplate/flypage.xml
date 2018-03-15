@@ -1,0 +1,29 @@
+<flypagetemplate>
+	<name>flypage</name>
+	<templatename>flypage</templatename>
+	<positions>
+		<position_5>
+			<parameter>productimages</parameter>
+			<parameter>socialshare</parameter>
+		</position_5>
+		<position_1>
+			<parameter>productstock</parameter>
+			<parameter>productrating</parameter>
+			<parameter>productsku</parameter>
+			<parameter>productshippingtime</parameter>
+			<parameter>productmanufacturer</parameter>
+		</position_1>
+		<position_2>
+			<parameter></parameter>
+		</position_2>
+		<position_3>
+			<parameter>productdescription</parameter>
+			<parameter>productreview</parameter>
+			<parameter>similar_products</parameter>
+			<parameter>relatedproducts</parameter>
+		</position_3>
+		<position_4>
+			<parameter>boughtwith</parameter>
+		</position_4>
+	</positions>
+</flypagetemplate>

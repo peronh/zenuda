@@ -1,0 +1,15 @@
+<browsetemplate>
+	<name>snapshot_vertical</name>
+	<templatename>snapshot_vertical</templatename>
+	<addtocartbutton>1</addtocartbutton>
+	<detailsbutton>1</detailsbutton>
+	<positions>
+		<position_1>
+			<parameter/>
+		</position_1>
+		<position_2>
+			<parameter>name_link</parameter>
+			<parameter>price</parameter>
+		</position_2>
+	</positions>
+</browsetemplate>

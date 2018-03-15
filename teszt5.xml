@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template>
+    <name>teszt5</name>
+    <author></author>
+    <create_date>2018-02-02</create_date>
+    <parent>rome</parent>
+    <tags>responsive</tags>
+    <unique_template>1</unique_template>
+    <allowedshop>
+        <shopname>teszt5</shopname>
+    </allowedshop>
+    <logosize>
+        <width>300</width>
+        <height>60</height>
+    </logosize>
+    <listgrid_enabled>true</listgrid_enabled>
+    <config_image>
+        <config_image_thumb_width>400</config_image_thumb_width>
+        <config_image_thumb_height>400</config_image_thumb_height>
+        <config_image_popup_width>900</config_image_popup_width>
+        <config_image_popup_height>500</config_image_popup_height>
+        <config_image_category_width>170</config_image_category_width>
+        <config_image_category_height>170</config_image_category_height>
+        <config_image_product_width>214</config_image_product_width>
+        <config_image_product_height>214</config_image_product_height>
+        <config_image_additional_width>110</config_image_additional_width>
+        <config_image_additional_height>110</config_image_additional_height>
+        <config_image_related_width>214</config_image_related_width>
+        <config_image_related_height>214</config_image_related_height>
+        <config_image_cart_width>50</config_image_cart_width>
+        <config_image_cart_height>50</config_image_cart_height>
+        <config_image_horizontal_width>50</config_image_horizontal_width>
+        <config_image_horizontal_height>50</config_image_horizontal_height>
+        <config_image_packageoffer_width>150</config_image_packageoffer_width>
+        <config_image_packageoffer_height>150</config_image_packageoffer_height>
+        <config_image_flag_width>40</config_image_flag_width>
+        <config_image_flag_height>40</config_image_flag_height>
+        <config_news_module_image_width>150</config_news_module_image_width>
+        <config_news_module_image_height>80</config_news_module_image_height>
+    </config_image>
+    <children>
+        <child>
+            common/column_left
+        </child>
+        <child>
+            common/footer
+        </child>
+        <child>
+            common/header
+        </child>
+    </children>
+    <positions>
+        <position><name>home</name><deniedfor>paf_filter,compare,manufacturer,searchlog</deniedfor></position>
+        <position><name>home-bottom</name><deniedfor>paf_filter,compare,manufacturer,searchlog</deniedfor></position>
+        <position><name>footer-top-1</name><deniedfor>paf_filter,compare,manufacturer,searchlog</deniedfor></position>
+        <position><name>footer-top-2</name><deniedfor>paf_filter,compare,manufacturer,searchlog</deniedfor></position>
+        <position><name>footer-col-1</name><deniedfor>paf_filter,compare,manufacturer,searchlog</deniedfor></position>
+        <position><name>footer-col-2</name><deniedfor>paf_filter,compare,manufacturer,searchlog</deniedfor></position>
+        <position><name>footer-col-3</name><deniedfor>paf_filter,compare,manufacturer,searchlog</deniedfor></position>
+        <position><name>footer-col-4</name><deniedfor>paf_filter,compare,manufacturer,searchlog</deniedfor></position>
+        <position><name>footer-bottom-1</name><deniedfor>paf_filter,compare,manufacturer,searchlog</deniedfor></position>
+        <position><name>footer-bottom-2</name><deniedfor>paf_filter,compare,manufacturer,searchlog</deniedfor></position>
+        <position><name>product-info-top</name><deniedfor>paf_filter,compare,manufacturer,searchlog</deniedfor></position>
+        <position><name>product-info-middle</name><deniedfor>paf_filter,compare,manufacturer,searchlog</deniedfor></position>
+        <position><name>product-info-bottom</name><deniedfor>paf_filter,compare,manufacturer,searchlog</deniedfor></position>
+        <position><name>product-image-bottom</name><deniedfor>paf_filter,compare,manufacturer,searchlog</deniedfor></position>
+        <position><name>main-product-bottom</name><allowedfor>customcontent,customcontent2,customcontent3,customcontent4,customcontent5,customcontent6,customcontent7,customcontent8,customcontent9,customcontent10,customcontent11,customcontent12,customcontent13,customcontent14,customcontent15</allowedfor></position>
+        <position><name>product-before-tabs</name><allowedfor>customcontent,customcontent2,customcontent3,customcontent4,customcontent5,customcontent6,customcontent7,customcontent8,customcontent9,customcontent10,customcontent11,customcontent12,customcontent13,customcontent14,customcontent15</allowedfor></position>
+        <position><name>product-after-tabs</name><allowedfor>customcontent,customcontent2,customcontent3,customcontent4,customcontent5,customcontent6,customcontent7,customcontent8,customcontent9,customcontent10,customcontent11,customcontent12,customcontent13,customcontent14,customcontent15</allowedfor></position>
+        <position><name>product-page-bottom</name><allowedfor>customcontent,customcontent2,customcontent3,customcontent4,customcontent5,customcontent6,customcontent7,customcontent8,customcontent9,customcontent10,customcontent11,customcontent12,customcontent13,customcontent14,customcontent15</allowedfor></position>
+        <position><name>left</name></position>
+        <position><name>right</name></position>
+        <position><name>pathway-top</name><allowedfor>pathway</allowedfor></position>
+        <position><name>pathway-inside</name><allowedfor>pathway</allowedfor></position>
+        <position><name>scroller</name><allowedfor>bannerscroller</allowedfor></position>
+        <position><name>browsetop</name><allowedfor>paf_filter</allowedfor></position>
+        <position><name>header</name><allowedfor>cart,category,headerlinks,login,logo,search,languageselect,currenciesselect</allowedfor></position>
+        <position><name>support</name><allowedfor>checkoutgyik</allowedfor></position>
+        <position><name>loginpage</name><allowedfor>sociallogin</allowedfor></position>
+    </positions>
+    <allowedCategoryStyles>
+        <categoryStyle>verticalbasic</categoryStyle>
+        <categoryStyle>verticalslidedown</categoryStyle>
+        <categoryStyle>verticalslideside</categoryStyle>
+        <categoryStyle>horizontaldropdown</categoryStyle>
+        <categoryStyle>horizontalbasic</categoryStyle>
+    </allowedCategoryStyles>
+    <modulefaultsettings>
+        <moduldefault>
+            <name>dealofday</name>
+            <dealofday_maxwidth>214</dealofday_maxwidth>
+            <dealofday_maxheight>214</dealofday_maxheight>
+        </moduldefault>
+        <moduldefault>
+            <name>kickerimage</name>
+            <position>home</position>
+            <order>0</order>
+            <allowedpositions>home</allowedpositions>
+        </moduldefault>
+        <moduldefault>
+             <name>blog_filter</name>
+            <position>left</position>
+            <order>0</order>
+            <allowedpositions>left,right,browsetop</allowedpositions>
+        </moduldefault>
+        <moduldefault>
+            <name>sociallogin</name>
+            <position>loginpage</position>
+            <order>1</order>
+            <allowedpositions>loginpage</allowedpositions>
+        </moduldefault>
+        <moduldefault>
+            <name>languageselect</name>
+            <position>header</position>
+            <order>1</order>
+            <allowedpositions>header</allowedpositions>
+        </moduldefault>
+        <moduldefault>
+            <name>currenciesselect</name>
+            <position>header</position>
+            <order>2</order>
+            <allowedpositions>header</allowedpositions>
+        </moduldefault>
+        <moduldefault>
+            <name>login</name>
+            <position>header</position>
+            <order>0</order>
+            <allowedpositions>header</allowedpositions>
+        </moduldefault>
+        <moduldefault>
+            <name>headerlinks</name>
+            <position>header</position>
+            <order>1</order>
+            <allowedpositions>header</allowedpositions>
+        </moduldefault>
+        <moduldefault>
+            <name>logo</name>
+            <position>header</position>
+            <order>2</order>
+            <allowedpositions>header</allowedpositions>
+        </moduldefault>
+        <moduldefault>
+            <name>search</name>
+            <position>header</position>
+            <order>3</order>
+            <allowedpositions>header</allowedpositions>
+        </moduldefault>
+        <moduldefault>
+            <name>cart</name>
+            <position>header</position>
+            <order>4</order>
+            <allowedpositions>header</allowedpositions>
+            <cart_style>displayProductListNetPrice</cart_style>
+            <cart_view_button>1</cart_view_button>
+            <cart_checkout_button>1</cart_checkout_button>
+        </moduldefault>
+        <moduldefault>
+            <name>category</name>
+            <position>header</position>
+            <order>5</order>
+            <show_name>0</show_name>
+            <allowedpositions>header</allowedpositions>
+            <category_menustyle>horizontaldropdown</category_menustyle>
+        </moduldefault>
+        <moduldefault>
+            <name>pathway</name>
+            <position>pathway-top</position>
+            <order>1</order>
+            <allowedpositions>pathway-top,pathway-inside</allowedpositions>
+        </moduldefault>
+        <moduldefault>
+            <name>bannerscroller</name>
+            <position>scroller</position>
+            <allowedpositions>scroller</allowedpositions>
+            <order>0</order>
+            <show_name>0</show_name>
+            <bannerscroller_control_nav>true</bannerscroller_control_nav>
+            <bannerscroller_direction_nav>true</bannerscroller_direction_nav>
+        </moduldefault>
+        <moduldefault>
+            <name>categoryoffer</name>
+            <position>home</position>
+            <show_name>1</show_name>
+            <order>1</order>
+            <categoryoffer_categoryperrow>4</categoryoffer_categoryperrow>
+        </moduldefault>
+        <moduldefault>
+            <name>special</name>
+            <position>home</position>
+            <show_name>1</show_name>
+            <order>2</order>
+        </moduldefault>
+        <moduldefault>
+            <name>latest</name>
+            <position>home</position>
+            <show_name>1</show_name>
+            <order>1</order>
+        </moduldefault>
+        <moduldefault>
+            <name>featured</name>
+            <position>home</position>
+            <show_name>1</show_name>
+            <order>1</order>
+        </moduldefault>
+        <moduldefault>
+            <name>news</name>
+            <position>home</position>
+            <order>1</order>
+            <show_name>1</show_name>
+            <news_show_introtext>1</news_show_introtext>
+            <news_show_intro_pic>1</news_show_intro_pic>
+            <news_show_author>1</news_show_author>
+            <news_show_date>1</news_show_date>
+            <news_show_details_button>1</news_show_details_button>
+            <news_show_all_button>1</news_show_all_button>
+            <news_max_item>2</news_max_item>
+        </moduldefault>
+        <moduldefault>
+            <name>customcontent</name>
+            <position>home</position>
+            <order>2</order>
+        </moduldefault>
+        <moduldefault>
+            <name>scrolled_product</name>
+            <position>home-bottom</position>
+            <allowedpositions>left,right,home-bottom,home</allowedpositions>
+            <show_name>1</show_name>
+            <order>1</order>
+        </moduldefault>
+        <moduldefault>
+            <name>paf_filter</name>
+            <position>left</position>
+            <order>-1</order>
+            <show_name>1</show_name>
+        </moduldefault>
+        <moduldefault>
+            <name>category2</name>
+            <position>left</position>
+            <allowedpositions>left,right</allowedpositions>
+            <order>0</order>
+            <show_name>1</show_name>
+        </moduldefault>
+        <moduldefault>
+            <name>wishlist</name>
+            <position>left</position>
+            <allowedpositions>left,right</allowedpositions>
+            <order>1</order>
+            <show_name>1</show_name>
+        </moduldefault>
+        <moduldefault>
+            <name>stockfilter</name>
+            <position>left</position>
+            <allowedpositions>left,right</allowedpositions>
+            <order>2</order>
+            <show_name>1</show_name>
+        </moduldefault>
+        <moduldefault>
+            <name>bestseller</name>
+            <position>left</position>
+            <order>4</order>
+            <show_name>1</show_name>
+        </moduldefault>
+        <moduldefault>
+            <name>compare</name>
+            <position>left</position>
+            <allowedpositions>left,right</allowedpositions>
+            <order>5</order>
+            <show_name>1</show_name>
+        </moduldefault>
+        <moduldefault>
+            <name>news2</name>
+            <position>left</position>
+            <order>6</order>
+            <show_name>1</show_name>
+            <news2_show_introtext>1</news2_show_introtext>
+            <news2_show_intro_pic>0</news2_show_intro_pic>
+            <news2_show_author>1</news2_show_author>
+            <news2_show_date>1</news2_show_date>
+            <news2_show_details_button>1</news2_show_details_button>
+            <news2_show_all_button>1</news2_show_all_button>
+            <news2_max_item>3</news2_max_item>
+        </moduldefault>
+        <moduldefault>
+            <name>manufacturer</name>
+            <position>right</position>
+            <order>1</order>
+            <show_name>1</show_name>
+        </moduldefault>
+        <moduldefault>
+            <name>manufactureroffer</name>
+            <position>right</position>
+            <order>2</order>
+            <show_name>1</show_name>
+        </moduldefault>
+        <moduldefault>
+            <name>lastseen</name>
+            <position>right</position>
+            <order>3</order>
+            <show_name>1</show_name>
+        </moduldefault>
+        <moduldefault>
+            <name>namedays</name>
+            <position>right</position>
+            <order>3</order>
+            <show_name>1</show_name>
+        </moduldefault>
+        <moduldefault>
+            <name>customcontent2</name>
+            <position>footer-top-1</position>
+            <order>1</order>
+            <show_name>1</show_name>
+        </moduldefault>
+        <moduldefault>
+            <name>customcontent3</name>
+            <position>footer-top-2</position>
+            <order>1</order>
+            <show_name>1</show_name>
+        </moduldefault>
+        <moduldefault>
+            <name>customcontent4</name>
+            <position>footer-col-1</position>
+            <order>1</order>
+            <show_name>1</show_name>
+        </moduldefault>
+        <moduldefault>
+            <name>information</name>
+            <position>footer-col-2</position>
+            <order>1</order>
+            <show_name>1</show_name>
+        </moduldefault>
+        <moduldefault>
+            <name>likebox</name>
+            <position>footer-col-3</position>
+            <order>1</order>
+            <show_name>1</show_name>
+        </moduldefault>
+        <moduldefault>
+            <name>newsletter_subscribe</name>
+            <position>footer-col-4</position>
+            <order>1</order>
+            <show_name>1</show_name>
+            <newsletter_askforfirstname>1</newsletter_askforfirstname>
+            <newsletter_askforlastname>1</newsletter_askforlastname>
+        </moduldefault>
+        <moduldefault>
+            <name>checkoutgyik</name>
+            <position>checkout</position>
+            <order>0</order>
+            <allowedpositions>checkout</allowedpositions>
+        </moduldefault>
+        <moduldefault>
+            <name>checkout_details</name>
+            <position>checkout</position>
+            <order>1</order>
+            <allowedpositions>checkout</allowedpositions>
+        </moduldefault>
+        <moduldefault>
+            <name>checkout_progress</name>
+            <position>checkout</position>
+            <order>2</order>
+            <allowedpositions>checkout</allowedpositions>
+        </moduldefault>
+        <moduldefault>
+            <name>theme_config</name>
+            <config_logged_dropdown>1</config_logged_dropdown>
+            <config_category_select_replacement>0</config_category_select_replacement>
+            <config_show_header_phone>0</config_show_header_phone>
+            <config_product_name_position>image-right</config_product_name_position>
+            <config_home_three_column>0</config_home_three_column>
+            <config_cart_dropdown>1</config_cart_dropdown>
+            <config_secondary_logo>0</config_secondary_logo>
+            <config_flypage_one_column>0</config_flypage_one_column>
+            <config_flypage_more_images_position>default</config_flypage_more_images_position>
+        </moduldefault>
+        <moduldefault>
+            <name>config</name>
+            <config_description_status>0</config_description_status>
+            <config_catalog_limit>20</config_catalog_limit>
+            <config_picture_enlarge>0</config_picture_enlarge>
+            <config_cart_one_column>1</config_cart_one_column>
+            <snapshot_collateral_element_order>checkboxFirst</snapshot_collateral_element_order>
+        </moduldefault>
+        <moduldefault>
+            <name>mobileshop</name>
+            <mobileshop_status>0</mobileshop_status>
+        </moduldefault>
+    </modulefaultsettings>
+    <snapshots>
+        <moduletemplate>
+            <file default="true">snapshot_vertical</file>
+            <file>snapshot_horizontal</file>
+        </moduletemplate>
+        <flypagetemplate>
+            <file>flypage</file>
+        </flypagetemplate>
+        <browsetemplate>
+            <file default="true">snapshot_vertical</file>
+        </browsetemplate>
+    </snapshots>
+    <defaultlisttype>div</defaultlisttype>
+    <templatefiles>
+        <tpl>common/footer</tpl>
+        <tpl>common/header</tpl>
+    </templatefiles>
+    <stylesheets>
+        <stylesheet asset="no">//fonts.googleapis.com/css?family=Open+Sans:400,800italic,800,700italic,700,600italic,600,400italic,300italic,300&amp;subset=latin-ext,latin</stylesheet>
+        <stylesheet>catalog/view/fonts/sr-cart-icons/fonts.css</stylesheet>
+    </stylesheets>
+    <scripts>
+        <script>vendor/twitter/bootstrap/dist/js/bootstrap.min.js</script>
+        <script>catalog/view/javascript/jquery/listGridLayout.js</script>
+        <script>catalog/view/javascript/jquery/stickyHeader.js</script>
+    </scripts>
+    <form>
+        <element>
+            <attribute type="Name">show_header_phone</attribute>
+            <attribute type="Type">radio</attribute>
+            <attribute type="Options">
+                <attribute type="Label">entry_config_show_header_phone</attribute>
+                <attribute type="DefaultValue">0</attribute>
+                <attribute type="MultiOptions">
+                    <option label="text_yes" value="1"/>
+                    <option label="text_no" value="0"/>
+                </attribute>
+            </attribute>
+        </element>
+        <element>
+            <attribute type="Name">cart_dropdown</attribute>
+            <attribute type="Type">radio</attribute>
+            <attribute type="Options">
+                <attribute type="Label">entry_config_cart_dropdown</attribute>
+                <attribute type="DefaultValue">1</attribute>
+                <attribute type="MultiOptions">
+                    <option label="text_yes" value="1"/>
+                    <option label="text_no" value="0"/>
+                </attribute>
+            </attribute>
+        </element>
+        <element>
+            <attribute type="Name">footer_cols_number</attribute>
+            <attribute type="Type">radio</attribute>
+            <attribute type="Options">
+                <attribute type="Label">entry_config_footer_cols_number</attribute>
+                <attribute type="DefaultValue">4</attribute>
+                <attribute type="MultiOptions">
+                    <option label="1" value="1"/>
+                    <option label="2" value="2"/>
+                    <option label="3" value="3"/>
+                    <option label="4" value="4"/>
+                </attribute>
+            </attribute>
+        </element>
+        <element>
+            <attribute type="Name">search_dropdown</attribute>
+            <attribute type="Type">radio</attribute>
+            <attribute type="Options">
+                <attribute type="Label">entry_config_search_dropdown</attribute>
+                <attribute type="DefaultValue">0</attribute>
+                <attribute type="MultiOptions">
+                    <option label="text_yes" value="1"/>
+                    <option label="text_no" value="0"/>
+                </attribute>
+            </attribute>
+        </element>
+        <element>
+            <attribute type="Name">flypage_one_column</attribute>
+            <attribute type="Type">radio</attribute>
+            <attribute type="Options">
+                <attribute type="Label">entry_config_flypage_one_column</attribute>
+                <attribute type="DefaultValue">0</attribute>
+                <attribute type="MultiOptions">
+                    <option label="text_yes" value="1"/>
+                    <option label="text_no" value="0"/>
+                </attribute>
+            </attribute>
+        </element>
+        <element>
+            <attribute type="Name">product_name_position</attribute>
+            <attribute type="Type">radio</attribute>
+            <attribute type="Options">
+                <attribute type="Label">entry_config_product_name_position</attribute>
+                <attribute type="DefaultValue">top</attribute>
+                <attribute type="MultiOptions">
+                    <option label="text_productname_position_top" value="top"/>
+                    <option label="text_productname_position_image_right" value="image-right"/>
+                </attribute>
+            </attribute>
+        </element>
+        <element>
+            <attribute type="Name">flypage_more_images_position</attribute>
+            <attribute type="Type">select</attribute>
+            <attribute type="Options">
+                <attribute type="Label">entry_config_flypage_more_images_position</attribute>
+                <attribute type="DefaultValue">default</attribute>
+                <attribute type="MultiOptions">
+                    <option label="text_more_images_position_default" value="default"/>
+                    <option label="text_more_images_position_image_left" value="image-left"/>
+                </attribute>
+            </attribute>
+        </element>
+        <element>
+            <attribute type="Name">flypage_more_image_slider_count</attribute>
+            <attribute type="Type">select</attribute>
+            <attribute type="Options">
+                <attribute type="Label">entry_config_flypage_more_image_slider_count</attribute>
+                <attribute type="DefaultValue">5</attribute>
+                <attribute type="MultiOptions">
+                    <option label="2" value="2"/>
+                    <option label="3" value="3"/>
+                    <option label="4" value="4"/>
+                    <option label="5" value="5"/>
+                    <option label="6" value="6"/>
+                </attribute>
+            </attribute>
+        </element>
+    </form>
+    <layouts>
+        <layout route="error/not_found" verticalProductsInRow="5" horizontalProductsInRow="2">layout/1-column-layout</layout>
+        <layout route="common/home" verticalProductsInRow="5" horizontalProductsInRow="2">layout/1-column-home-layout</layout>
+        <layout route="product/product" verticalProductsInRow="5" horizontalProductsInRow="2">layout/1-column-product-layout</layout>
+        <layout route="default" verticalProductsInRow="4" horizontalProductsInRow="1">layout/2-column-left-layout</layout>
+    </layouts>
+</template>
