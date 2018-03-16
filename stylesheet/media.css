@@ -10,11 +10,6 @@
         margin: 15px!important;
     }
 
-    /*
-    .col-product img {
-        width: 250px;
-    }*/
-
     .push-up {
         width: 40%;
     }
@@ -150,6 +145,10 @@
         top: 27px;
     }
 
+    #slider {
+        height: 500px;
+    }
+
     .owl-next {
         right: 10px;
     }
@@ -241,6 +240,9 @@
     }
     .owl-prev {
         left: 0!important;
+    }
+    #slider {
+        height: 350px;
     }
 
 }

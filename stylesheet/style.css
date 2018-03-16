@@ -198,6 +198,13 @@ body {
     position: relative;
 }
 
+#slider {
+    height: 700px;
+    background-image: url('../image/background.png');
+    background-size: cover;
+    background-position: center;
+}
+
 .module-body-btn {
     position: absolute;
     left: 46%;
