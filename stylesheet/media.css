@@ -32,6 +32,10 @@
     .owl-prev {
         left: -10px;
     }
+     .container-fluid-tender {
+        height: 100%;
+        padding-bottom: 150px;
+    }
 }
 
 
@@ -165,8 +169,8 @@
     }
 
     .container-fluid-tender {
-        height: 100%;
-        padding-bottom: 30px;
+        /*height: 100%;*/
+        padding-bottom: 50px;
     }
 
     .push-up {
@@ -283,10 +287,6 @@
     .container-menu form span {
         left: 236px;
     }
-     .container-1 {
-        margin-top: 20px;
-    }
-
 }
 
 @media (min-width: 1200px) and (max-width: 1500px) {
@@ -296,9 +296,6 @@
     }
     .container-menu form {
         width: 250px;
-    }
-    .container-1 {
-        margin-top: -50px;
     }
     .badge-picture {
           left: 220px!important;
