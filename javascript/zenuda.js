@@ -1,12 +1,7 @@
 
 
- var targetWidth=1440;
-    $('.desktop').on('click', function() {
-            $('meta[name="viewport"]').attr('content', 'width='+targetWidth);
-        }
-    );
-
 $(document).ready(function() {
+
 
     $('ul li').on('click', function(){
         $('ul li.active').removeClass('active');
@@ -70,4 +65,11 @@ $(document).ready(function() {
             $(".btntop").hide(250);
         }
     });
+
+     var targetWidth=1400;
+    $('.desktop').on('click', function() {
+    $('meta[name="viewport"]').attr('content', 'width='+targetWidth);
+}
+);
+
 });
