@@ -48,14 +48,6 @@ $(document).ready(function() {
         $("body").css({"margin-right": "0" , "overflow":"visible"});   
     });
 
-     $('.btntop').on("click", function() {
-
-            $('html,body').animate( {
-                scrollTop: 0
-            }, 700);
-        }
-    );
-
     $(document).on("scroll", function() {
 
         if($(document).scrollTop()>600) {
@@ -65,6 +57,14 @@ $(document).ready(function() {
             $(".btntop").hide(250);
         }
     });
+
+    $('.btntop').on("click", function() {
+
+            $('html,body').animate( {
+                scrollTop: 0
+            }, 700);
+        }
+    );
 
      var targetWidth=1400;
     $('.desktop').on('click', function() {
