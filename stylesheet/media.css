@@ -289,7 +289,7 @@
 
 }
 
-@media (min-width: 1200px) and (max-width: 1499.99px) {
+@media (min-width: 1200px) and (max-width: 1500px) {
 
     .navbar .container-menu {
         width: 500px;
@@ -313,6 +313,9 @@
 	.col-product {
 		margin: 0 10px;
 	}
+    .green-text2 {
+        font-size: 20px;
+    }
 
 }
 
