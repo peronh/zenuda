@@ -524,6 +524,10 @@ body {
     font-size: 14px;
 }
 
+.container-green {
+    background-color: #f6f6f6;
+}
+
 .row-green {
     margin-top: -100px;
     position: relative;
