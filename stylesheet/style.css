@@ -1001,3 +1001,25 @@ input {
     color: #cccccc;
 }
 
+.btntop {
+    position: fixed;
+    z-index: 5000;
+    right: 0;
+    bottom: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #000000;
+    border-radius: 0;
+    opacity: .6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btntop .fa-arrow-up {
+    position: absolute;
+    z-index: 6000;
+    color: #e3c9a8;
+    font-size: 150%;
+}
+
