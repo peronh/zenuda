@@ -25,7 +25,7 @@ $(document).ready(function() {
         }
 	});
 
-   $(".mobile-category-header").on("click", function categoryNav() { 
+   $(".mobile-category-header, .mobile-search-link").on("click", function categoryNav() { 
         $("#categorytree-nav").css({"width": "300px", "transition":"width 500ms", "-webkit-transition":"width 500ms", "z-index":"3000"});
         $("body").css({"margin-left": "300px", "transition":"margin-left 500ms", "-webkit-transition":"margin-left 500ms", 
         "overflow":"hidden",  "width":"100%" , "position": "relative" , "z-index" : "3000"});
@@ -63,7 +63,7 @@ $(document).ready(function() {
         }
     });
 
-    var targetWidth=1400;
+    var targetWidth=1440;
     $('.desktop').on('click', function() {
             $('meta[name="viewport"]').attr('content', 'width='+targetWidth);
         }

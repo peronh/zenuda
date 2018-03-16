@@ -3,6 +3,7 @@
 body {
 	font-family: 'Roboto', sans-serif;
     min-width: 320px;
+    position: relative;
 }
 
 .container {
@@ -613,6 +614,7 @@ body {
     width: 50%;
     margin-top: 67px;
     margin-left: 50px;
+    padding: 0;
 }
 
 .push-up-text-title {
@@ -627,7 +629,7 @@ body {
     color: #a5adad;
     font-weight: 300;
     line-height: 28px;
-    padding:40px 0;
+    padding: 38px 0 23px;
 }
 
 .push-up-text-pay {
@@ -1021,5 +1023,15 @@ input {
     z-index: 6000;
     color: #e3c9a8;
     font-size: 150%;
+}
+
+.desktop {
+    display: none;
+    position: absolute;
+    bottom: 10px;
+    right: 80px;
+    font-size: 12px;
+    font-style: italic;
+    color: #e3c9a8;
 }
 

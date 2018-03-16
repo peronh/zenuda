@@ -233,6 +233,9 @@
      #slider {
         height: 350px;
     }
+    .desktop {
+        display: block;
+    }
 }
 
 @media (max-width: 480px) {
