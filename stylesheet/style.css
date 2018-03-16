@@ -1018,6 +1018,10 @@ input {
     justify-content: center;
 }
 
+.btn {
+    text-transform: uppercase;
+}
+
 .btntop .fa-arrow-up {
     position: absolute;
     z-index: 6000;

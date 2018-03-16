@@ -65,11 +65,4 @@ $(document).ready(function() {
             }, 700);
         }
     );
-
-     var targetWidth=1400;
-    $('.desktop').on('click', function() {
-    $('meta[name="viewport"]').attr('content', 'width='+targetWidth);
-}
-);
-
 });
