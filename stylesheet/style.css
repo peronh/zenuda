@@ -667,7 +667,7 @@ body {
 
 .btn-success:hover {
     background-color: #ffffff;
-    color: #495555;
+    color: #364040;
 }
 
 .btn-secondary {
@@ -675,7 +675,13 @@ body {
     height: 60px;
     margin-top: 10px;
     background-color: #ffffff;
-    color: #495555;
+    color: #364040;
+}
+
+.btn-secondary:hover {
+    background-color: #364040;
+    color: #ffffff;
+    border: 1px solid #ffffff;
 }
 
 .menu-row {
