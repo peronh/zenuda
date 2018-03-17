@@ -789,7 +789,7 @@ body {
     top: -10px;
     height: calc(100% + 55px);
     border: solid 10px #c1c1c1;
-    opacity: 1;
+    opacity: 0.3;
 }
 
 .col-register2:after {
@@ -801,6 +801,7 @@ body {
     width: calc(100% - 40px);
     height: calc(100% + 72px);
     border: solid 2px #c1c1c1;
+    opacity: 0.3;
 }
 
 .pop-text3 {
