@@ -314,6 +314,17 @@
 
 }
 
+@media (min-width: 1300px) and (max-width: 1700px) {
+    .green-text2 {
+        font-size: 17px;
+    }
+    .green-text1 {
+        font-size: 36px;
+    }
+}
+
+
+
 
 
 
