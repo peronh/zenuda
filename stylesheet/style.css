@@ -463,12 +463,12 @@ body {
 }
 
 .owl-prev {
-	left: -55px;
+	left: -65px;
     background-image:  url("../image/icon-left.png");
 }
 
 .owl-next {
-	right: -55px;
+	right: -65px;
     background-image:  url("../image/icon-right.png");
 }
 
