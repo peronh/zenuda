@@ -162,6 +162,7 @@ body {
     width: 200px;
     height: 44px;
     padding: 0;
+    margin-bottom: -12px;
     border: 0;
     border-bottom: 1px solid #000000;
     font-size: 14px;
@@ -176,13 +177,14 @@ body {
 .badge-picture {
     position: absolute;
     left: 271px!important;
-    bottom: -10px;
+    bottom: -19px;
 }
 
 .container-menu form span {
     position: absolute;
     left: 287px;
-    bottom: 0;
+    bottom: -7px;
+    padding-top: 4px;
     width: 20px;
     height: 20px;
     font-size: 12px;
@@ -673,6 +675,10 @@ body {
     margin-top: 10px;
     background-color: #ffffff;
     color: #495555;
+}
+
+.menu-row {
+    margin-bottom: -5px;
 }
 
 .row {
