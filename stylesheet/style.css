@@ -178,6 +178,7 @@ body {
     position: absolute;
     left: 271px!important;
     bottom: -19px;
+    cursor: pointer;
 }
 
 .container-menu form span {
