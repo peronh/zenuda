@@ -983,7 +983,7 @@ input {
 }
 
 .container-picture {
-    margin-top: 80px;
+    margin: 70px auto 5px;
 }
 
 .title-picture {
@@ -992,6 +992,7 @@ input {
     color: #cccccc;
     text-transform: uppercase;
     text-align: left;
+    padding-top: 12px;
 }
 
 .title-picture span {
