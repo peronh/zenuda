@@ -43,6 +43,7 @@
 
     .row-product {
         padding-top: 40px;
+        margin-top:0;
     }
 
     .container-fluid-pop {
@@ -234,7 +235,7 @@
 }
 
 @media (max-width: 575.99px) {
-     #slider {
+    #slider {
         height: 350px;
     }
     .desktop {
@@ -257,10 +258,7 @@
     #slider {
         height: 300px;
     }
-
 }
-
-
 
 
 @media (min-width: 992px) and (max-width: 1199.99px){
